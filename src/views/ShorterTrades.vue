@@ -4,7 +4,9 @@
     <div class="container d-flex justify-content-center align-items-center">
       <div class="card mt-3 col-6">
         <div class="card-body">
-          <h1 class="text-center">Task List</h1>
+          <h1 class="text-center">Shorter TF Trades</h1>
+          <h5 class="text-center"> Write in this format: </h5>
+          <h6 class="text-center"> Asset: TF LONG/SHORT </h6>
           <div
             class="d-flex flex-column flex-sm-row justify-content-between mt-3 mt-sm-5"
           >
@@ -64,16 +66,6 @@
                 <p class="fw-bold" v-show="pendingTasks > 0">
                   You have {{ pendingTasks }} pending tasks
                 </p>
-              </div>
-              <div>
-                <button
-                  type="button"
-                  class="btn btn-warning"
-                  @click="deleteAllTasks"
-                  v-show="tasks.length > 0"
-                >
-                  Delete All
-                </button>
               </div>
             </div>
           </div>
