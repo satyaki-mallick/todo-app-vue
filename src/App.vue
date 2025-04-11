@@ -2,7 +2,7 @@
   <header class="app-header">
     <nav class="header-nav">
       <RouterLink to="/" class="header-navlink">Shorter TF Trades</RouterLink>
-      <RouterLink to="/test" class="header-navlink" >Daily & 4h TF Trades</RouterLink>
+      <RouterLink to="/test" class="header-navlink" >Daily TF Trades</RouterLink>
     </nav>
   </header>
   <main>

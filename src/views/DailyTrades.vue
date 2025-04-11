@@ -45,7 +45,7 @@
                     type="checkbox"
                     v-model="task.isDone"
                   />
-                  <div>
+                  <div v-if="task.description.includes('Daily')">
                     <p class="fw-semibold">{{ task.description }}</p>
                   </div>
                   <div>
